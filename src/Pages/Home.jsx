@@ -8,7 +8,7 @@ const Home = () => {
 		<div className="text-white px-[10%]" id="Home">
 			<Navbar />
 			<div className="lg:hidden">
-				<div className="font-bold text-5xl text-center py-20 ">XI TKJ 3</div>
+				<div className="font-bold text-5xl text-center py-20 ">INFORMATIKA 1C</div>
 				<div
 					className="border-2 flex justify-between px-10 text-4xl font-bold py-2 relative"
 					id="TotalSiswa">
@@ -17,14 +17,14 @@ const Home = () => {
 					</div>
 					<div className="">
 						<span id="AngkaGradientBlue" className="text-5xl">
-							3
+							2
 						</span>
 						<span id="AngkaGradientPink" className="text-5xl">
-							7
+							3
 						</span>
 					</div>
 					<div id="AngkaGradientPink" className="flex items-center justify-center">
-						12
+						3
 					</div>
 				</div>
 
@@ -47,7 +47,7 @@ const Home = () => {
 						WELCOME
 					</h1>
 					<h6 className="text-sm" style={{ letterSpacing: "5px" }}>
-						TO SABAKU NIJI REBIRTH
+						TO INFORMATIKA 1C
 					</h6>
 				</div>
 			</div>
