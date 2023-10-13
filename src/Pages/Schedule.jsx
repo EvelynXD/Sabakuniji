@@ -7,6 +7,8 @@ const Selasa = React.lazy(() => import("../components/Mapel/Selasa"));
 const Rabu = React.lazy(() => import("../components/Mapel/Rabu"));
 const Kamis = React.lazy(() => import("../components/Mapel/Kamis"));
 const Jumat = React.lazy(() => import("../components/Mapel/Jumat"));
+const Sabtu = React.lazy(() => import("../components/Mapel/Sabtu"));
+const Minggu = React.lazy(() => import("../components/Mapel/Minggu"));
 
 const Schedule = () => {
   const daysOfWeek = [
@@ -54,6 +56,8 @@ const Schedule = () => {
     Rabu,
     Kamis,
     Jumat,
+    Sabtu,
+    Minggu,
   ];
 
   // Menampilkan komponen berdasarkan hari saat ini
@@ -106,7 +110,7 @@ const Schedule = () => {
             </div>
           ))
         ) : (
-          <p className="opacity-50">Tidak ada Jadwal Piket Hari Ini</p>
+          <p className="opacity-50">Tidak ada Matkul Hari ini</p>
         )}
       </div>
     </>
